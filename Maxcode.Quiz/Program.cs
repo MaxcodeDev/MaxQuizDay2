@@ -9,7 +9,7 @@ namespace Maxcode.Quiz
     {
         /*
          * Maxquiz Olympics Day 2
-         * Do not change initializaion of DavidLetterman class
+         * Do not change initialization of DavidLetterman class
          * You should add methods in DavidLetterman class only!
          * Good luck!
          * Submit your response here https://docs.google.com/forms/d/e/1FAIpQLScdpCWlr8IICuXmEwkzom7-A8tbMzat6uVbTtjkUpmDSlfWbg/viewform
@@ -17,27 +17,35 @@ namespace Maxcode.Quiz
          */
         static void Main(string[] args)
         {
-            var letters = new[] { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z' };
-            var w = new DavidLetterman
+            var letters = new[]
+            {
+                'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T',
+                'U', 'V', 'W', 'X', 'Y', 'Z'
+            };
+            var davidLetterman = new DavidLetterman
             {
                 'a',
-                { 'b' },
+                {'b'},
                 'c',
-                letters.Where(x=>x%2==0),
-                {  letters.Where(x=>x%2==1) }
+                letters.Where(x => x % 2 == 0),
+                {letters.Where(x => x % 2 == 1)}
             };
-            foreach (var v in w)
-                Console.WriteLine(v);
-        }
-    }
-    class DavidLetterman : IEnumerable<char>
-    {
-        private readonly List<char> _myLetters = new List<char>();
-        public IEnumerator<char> GetEnumerator() => _myLetters.GetEnumerator();
-        IEnumerator IEnumerable.GetEnumerator() => GetEnumerator();
 
-        /*
-         * Your code goes here
-         */
+            foreach (var letter in davidLetterman)
+            {
+                Console.WriteLine(letter);
+            }
+        }
+
+        class DavidLetterman : IEnumerable<char>
+        {
+            private readonly List<char> _myLetters = new List<char>();
+            public IEnumerator<char> GetEnumerator() => _myLetters.GetEnumerator();
+            IEnumerator IEnumerable.GetEnumerator() => GetEnumerator();
+
+            /*
+             * Your code goes here
+             */
+        }
     }
 }
