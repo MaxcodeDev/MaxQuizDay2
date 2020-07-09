@@ -9,7 +9,7 @@ namespace Maxcode.Quiz
     {
         /*
          * Maxquiz Olympics Day 2
-         * Do not change initializaion of DavidLetterman class
+         * Do not change initialization of DavidLetterman class
          * You should add methods in DavidLetterman class only!
          * Good luck!
          * Submit your response here https://docs.google.com/forms/d/e/1FAIpQLScdpCWlr8IICuXmEwkzom7-A8tbMzat6uVbTtjkUpmDSlfWbg/viewform
