@@ -10,4 +10,4 @@ Want to know what you’re playing for? The chance to win a funny and original M
 
 read more about rules, updates and prizes [here](https://www.facebook.com/notes/maxcode/maxquiz-rulebook-/3195266267201373/)
 
-Submit your answears [here](https://docs.google.com/forms/d/e/1FAIpQLScdpCWlr8IICuXmEwkzom7-A8tbMzat6uVbTtjkUpmDSlfWbg/viewform)
+Submit your answers [here](https://docs.google.com/forms/d/e/1FAIpQLScdpCWlr8IICuXmEwkzom7-A8tbMzat6uVbTtjkUpmDSlfWbg/viewform)
