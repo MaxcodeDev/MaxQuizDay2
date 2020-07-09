@@ -1,3 +1,6 @@
+# Maxquiz Day 2 
+Please submit your answers [here](https://docs.google.com/forms/d/e/1FAIpQLScdpCWlr8IICuXmEwkzom7-A8tbMzat6uVbTtjkUpmDSlfWbg/viewform)
+
 # MaxQuiz Rulebook
 
 Over the course of the next month, starting with July 2020, we will be bringing you a new quiz competition every week, with a champion crowned every Friday.
@@ -10,4 +13,3 @@ Want to know what you’re playing for? The chance to win a funny and original M
 
 read more about rules, updates and prizes [here](https://www.facebook.com/notes/maxcode/maxquiz-rulebook-/3195266267201373/)
 
-Submit your answears [here](https://docs.google.com/forms/d/e/1FAIpQLScdpCWlr8IICuXmEwkzom7-A8tbMzat6uVbTtjkUpmDSlfWbg/viewform)
